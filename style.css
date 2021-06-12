@@ -2,12 +2,12 @@ body {
     width: 500px;
     margin: 4% auto;
     font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     font-size: 1.8rem;
-    
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    
   }
   
   .calculator {
@@ -124,3 +124,17 @@ body {
   div.equal:active {
     font-weight: bold;
   }
+
+  footer  {
+    margin-top: -4px;
+    font-size: 15px;
+    text-align: center;
+ padding: 20px;
+    background-color: rgba(158, 150, 150, 0.171);
+    color: rgb(4, 4, 87);
+    position: relative;
+    bottom: -15px;
+    margin-bottom: 11px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
